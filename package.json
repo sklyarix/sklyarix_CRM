@@ -2,7 +2,10 @@
   "name": "sklyarix_crm",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sklyarix.github.io/sklyarix_CRM",
   "scripts": {
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",

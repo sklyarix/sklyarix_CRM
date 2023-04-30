@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://sklyarix.github.io/sklyarix_CRM",
   "scripts": {
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
